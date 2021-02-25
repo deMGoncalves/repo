@@ -37,6 +37,7 @@
   },
   "main": "src/index.js",
   "name": "repo",
+  "private": true,
   "scripts": {
     "build": "yarn run webpack --config webpack.prod.js",
     "start": "yarn run webpack serve --config webpack.dev.js --open",
