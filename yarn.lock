@@ -4825,6 +4825,12 @@ stylelint@^13.11.0:
     v8-compile-cache "^2.2.0"
     write-file-atomic "^3.0.3"
 
+stylelintrc@deMGoncalves/stylelintrc:
+  version "1.0.0"
+  resolved "https://codeload.github.com/deMGoncalves/stylelintrc/tar.gz/2c8e5479235c036b2d02505dbcba811c936c580b"
+  dependencies:
+    f deMGoncalves/f
+
 sugarss@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/sugarss/-/sugarss-2.0.0.tgz#ddd76e0124b297d40bf3cca31c8b22ecb43bc61d"
