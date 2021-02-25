@@ -22,8 +22,11 @@
   "main": "src/index.js",
   "name": "repo",
   "scripts": {
-    "start": "jest --watchAll",
-    "test": "jest --passWithNoTests"
+    "start": "",
+    "test": "concurrently 'yarn run test:*'",
+    "test:eslint": "yarn run eslint src/** --fix",
+    "test:stylelint": "",
+    "test:jest": "jest --passWithNoTests"
   },
   "version": "1.0.0"
 }
