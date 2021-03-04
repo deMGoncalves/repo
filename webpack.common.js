@@ -36,7 +36,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[fullhash].[ext]'
+              name: '[name].[hash].[ext]'
             }
           }
         ],
